@@ -13,6 +13,7 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 ## Overview
 
 ### Screenshot
+![FireShot Capture 001 - Frontend Mentor - Huddle landing page with alternating feature blocks_ - 127 0 0 1](https://user-images.githubusercontent.com/76619995/161082159-da9a8e24-01a5-4f07-8e25-83bc12b9fc06.png)
 
 
 ## My process
