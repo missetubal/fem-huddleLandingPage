@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Serif:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Serif:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.first-screen{
+    background-image: url('../images/bg-hero-desktop.svg');
+    width: cover;
+    padding: 10px;
+
+}
+header{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 40px 40px;
+}
+ #logo{
+     width: 160px;
+     height: 30px;
+     padding-left: 30px;
+ }
+
+header input[type=button]{
+     background-color: rgb(255, 255, 255);
+     padding: 8px;
+     margin: 10px;
+     border-style: none;
+     border-radius: 10px;
+     width: 130px;
+     box-shadow: 6px 6px 20px rgba(154, 159, 174, 0.2);
+ }
+ 
+ .first-body{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     padding: 80px;
+     margin-bottom: 20px;
+ }
+
+ .first-body.text{
+     align-items: center;
+     justify-content: center;
+ }
+
+ .first-body h1{
+     
+     line-height: 40px;
+     margin-top: 90px;
+     margin-bottom: 25px;
+ }
+
+ .first-body p{
+     width: 78%;
+    line-height: 25px;
+    
+    margin-top: 10px;
+    margin-right: 20px;
+ }
+
+ .first-body button{
+     background-color: rgb(233, 36, 233);
+     color: white;
+     border-style: none;
+     padding: 10px 25px;
+     border-radius: 15px;
+     width: 200px;
+     margin-top: 20px;
+     text-align: center;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 12px;
+
+ }
+ 
+ .first-body img{
+     width: 50%;
+     margin-right: 30px;
+ }
+
+ .sections{
+     display: flex;
+     padding: 90px;
+     flex-direction: column;
+
+ }
+
+ .sections .grow, .sections .user, .sections .flowing{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     border: 2px solid rgb(233, 233, 233);
+     align-items: center;
+     padding: 50px;
+     margin-bottom: 25px;
+
+ }
+ 
+.sections .grow .text-grow, .sections .user .text-user{
+    padding: 30px;
+}
+
+ .sections .grow h1, .sections .flowing h1{ 
+    font-size: 28px;
+    margin-bottom: 10px;
+ }
+ 
+ .sections .flowing .text-flowing{
+    
+    text-align: end;
+    width: 40%;
+}
+.sections .flowing .text-flowing p{
+    color: rgb(172, 170, 170);
+}
+ .sections .grow p, .sections .user p{
+    width: 60%;
+    color: rgb(172, 170, 170);
+    line-height: 25px;
+ }
+
+ .sections .grow img, .sections .user img, .sections .flowing img{
+     width: 30%;
+ }
+
+footer{
+    background-color: rgb(1, 1, 71);
+    color: rgb(172, 170, 170);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 120px 120px 60px 120px;
+}
+
+footer .footer-text{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    font-size: 14px;
+}
+footer .footer-text h1{
+    margin-bottom: 10px;
+    color: white;
+
+}
+footer .footer-text img{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    
+} 
+
+footer .location, .phone, .email{
+    display: flex;
+    flex-direction: row;
+    padding: 7px;
+}
+
+footer .menu{
+    display: flex;
+    flex-direction: row;
+}
+footer .menu a{
+    margin: 5px;
+    color: rgb(172, 170, 170);
+}
+footer .menu .first-collumn, .second-collumn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: center;
+}
+footer .social-media p{
+    font-size: 12px;
+}
+
+ion-icon{
+    font-size: 20px;
+    width: 30px;
+    color: rgb(172, 170, 170);
+    margin-bottom: 150px;
+} 
+
+.center-footer{
+    background-color: rgb(1, 1, 71);
+    color: rgb(172, 170, 170);
+    /* padding: 10px; */
+}
+
+.container{
+    background-color: white;
+    /* z-index: 1; */
+    position: absolute;
+    bottom: -1400px;
+    left: 30%;
+    width: 600px;
+    height: 150px;
+    border-radius: 20px; 
+    box-shadow: 6px 6px 20px rgba(136, 140, 153, 0.2);
+}
+
+.container h1{
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+}
+
+.container button{
+    position: absolute;
+    left: 30%;
+    background-color: rgb(233, 36, 233);
+     color: white;
+     border-style: none;
+     padding: 10px 25px;
+     border-radius: 15px;
+     width: 200px;
+     
+}
